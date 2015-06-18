@@ -23,4 +23,9 @@ function icon_on_hover_out($icon, $stb) {
 
 ```
 
+Add the ```$stb``` node to the ```document.body```:
+```js
+document.body.appendChild(Stb.get_node());
+```
+
 [Demo](https://tipdbmp.github.io/stb/).
